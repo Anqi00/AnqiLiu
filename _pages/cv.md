@@ -35,7 +35,11 @@ author_profile: true
   background: #4a7aac;
   color: #fff;
 }
+/* default: show CN, hide EN */
 .lang-en { display: none; }
+/* when EN is active, flip */
+body.cv-lang-en .lang-en { display: revert !important; }
+body.cv-lang-en .lang-cn { display: none !important; }
 
 /* ── Print button ── */
 .cv-print-btn {
@@ -587,20 +591,18 @@ author_profile: true
 
 <script>
 function setLang(lang) {
-  document.querySelectorAll('.lang-cn').forEach(function(el) {
-    el.style.display = lang === 'cn' ? '' : 'none';
-  });
-  document.querySelectorAll('.lang-en').forEach(function(el) {
-    el.style.display = lang === 'en' ? '' : 'none';
-  });
+  document.body.classList.toggle('cv-lang-en', lang === 'en');
   document.getElementById('btn-cn').classList.toggle('active', lang === 'cn');
   document.getElementById('btn-en').classList.toggle('active', lang === 'en');
   try { localStorage.setItem('cv-lang', lang); } catch(e) {}
 }
 (function() {
   try {
-    var saved = localStorage.getItem('cv-lang');
-    if (saved === 'en') setLang('en');
+    if (localStorage.getItem('cv-lang') === 'en') {
+      document.body.classList.add('cv-lang-en');
+      document.getElementById('btn-cn').classList.remove('active');
+      document.getElementById('btn-en').classList.add('active');
+    }
   } catch(e) {}
 })();
 </script>
