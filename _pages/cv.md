@@ -233,6 +233,29 @@ body.cv-lang-en .lang-cn { display: none !important; }
 .pub-item:last-child { border-bottom: none; }
 .pub-title { font-weight: 600; color: #1a2e44; }
 .pub-meta { color: #777; font-size: 0.87em; margin-top: 2px; }
+.if-badge {
+  display: inline-block;
+  background: #fce4ec;
+  color: #c62828;
+  border: 1px solid #ef9a9a;
+  padding: 1px 7px;
+  border-radius: 8px;
+  font-size: 0.78em;
+  margin-left: 5px;
+  vertical-align: middle;
+  font-weight: 600;
+}
+.q1-badge {
+  display: inline-block;
+  background: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #a5d6a7;
+  padding: 1px 7px;
+  border-radius: 8px;
+  font-size: 0.78em;
+  margin-left: 3px;
+  vertical-align: middle;
+}
 .pub-badge {
   display: inline-block;
   background: #e8f5e9;
@@ -681,16 +704,16 @@ body.cv-lang-en .lang-cn { display: none !important; }
       Realtime multi-RGBD SLAM framework for 3D reconstruction and phenotyping in large-scale apple orchards
       <span class="pub-badge"><span class="lang-cn">第二作者</span><span class="lang-en">2nd Author</span></span>
     </div>
-    <div class="pub-meta lang-cn">期刊论文 · 大规模果园实时多RGB-D SLAM三维重建与表型分析框架</div>
-    <div class="pub-meta lang-en">Journal Article · Real-time multi-RGBD SLAM for 3D reconstruction and phenotyping in large-scale apple orchards</div>
+    <div class="pub-meta lang-cn">Computers and Electronics in Agriculture <span class="if-badge">IF 10.3</span><span class="q1-badge">Q1 Top</span> · 大规模果园实时多RGB-D SLAM三维重建与表型分析框架</div>
+    <div class="pub-meta lang-en">Computers and Electronics in Agriculture <span class="if-badge">IF 10.3</span><span class="q1-badge">Q1 Top</span></div>
   </li>
   <li class="pub-item">
     <div class="pub-title">
       Transformer-based cross-view LiDAR–Orthomosaic fusion for geo-localization and digital modeling in apple orchards
       <span class="pub-badge"><span class="lang-cn">第三作者</span><span class="lang-en">3rd Author</span></span>
     </div>
-    <div class="pub-meta lang-cn">期刊论文 · 基于Transformer的LiDAR与正射影像跨视角融合用于苹果园地理定位与数字建模</div>
-    <div class="pub-meta lang-en">Journal Article · Transformer-based cross-view LiDAR–Orthomosaic fusion for geo-localization and digital modeling in apple orchards</div>
+    <div class="pub-meta lang-cn">Artificial Intelligence in Agriculture <span class="if-badge">IF 16.1</span><span class="q1-badge">Q1 Top</span> · 基于Transformer的LiDAR与正射影像跨视角融合用于苹果园地理定位与数字建模</div>
+    <div class="pub-meta lang-en">Artificial Intelligence in Agriculture <span class="if-badge">IF 16.1</span><span class="q1-badge">Q1 Top</span></div>
   </li>
 </ul>
 
