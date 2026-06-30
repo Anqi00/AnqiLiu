@@ -191,6 +191,42 @@ body.cv-lang-en .lang-cn { display: none !important; }
   font-size: 0.85em;
 }
 
+/* ── Award list ── */
+.award-list { list-style: none; padding: 0; margin: 0; }
+.award-item {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f4f8;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+.award-item:last-child { border-bottom: none; }
+.award-year {
+  display: inline-block;
+  background: #eef4fb;
+  color: #2971b8;
+  border: 1px solid #c5ddf5;
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 0.82em;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.award-level {
+  display: inline-block;
+  background: #fff3e0;
+  color: #e65100;
+  border: 1px solid #ffcc80;
+  padding: 1px 7px;
+  border-radius: 8px;
+  font-size: 0.78em;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
 /* ── Publications ── */
 .pub-list { list-style: none; padding: 0; margin: 0; }
 .pub-item { padding: 12px 0; border-bottom: 1px solid #f0f4f8; font-size: 0.9em; line-height: 1.6; }
@@ -494,6 +530,142 @@ body.cv-lang-en .lang-cn { display: none !important; }
     </div>
   </div>
 </div>
+
+<!-- ===================== UNDERGRADUATE PROJECTS ===================== -->
+<div class="cv-section-title">
+  <span class="lang-cn">📊 本科项目经历</span>
+  <span class="lang-en">📊 Undergraduate Projects</span>
+</div>
+
+<!-- UG Project 1 -->
+<div class="project-card">
+  <div class="project-card-header">
+    <div class="project-card-title">
+      <span class="lang-cn">按地区分析疫苗接种数据</span>
+      <span class="lang-en">Regional COVID-19 Vaccination Data Analysis</span>
+    </div>
+    <div class="project-card-date">2021.06 — 2021.09</div>
+  </div>
+  <div class="project-content">
+    <div class="lang-cn">
+      <ul>
+        <li>🔻 按不同年龄组统计分析第三剂疫苗接种完成情况，识别接种率偏低的区域与人群</li>
+        <li>🔻 将分析结果可视化并交付地方政府，帮助其更精准地制定疫苗接种督促策略</li>
+      </ul>
+    </div>
+    <div class="lang-en">
+      <ul>
+        <li>🔻 Analyzed third-dose COVID-19 vaccination completion rates by age group and region, identifying under-vaccinated populations</li>
+        <li>🔻 Delivered data visualizations to local government to support more targeted vaccination promotion campaigns</li>
+      </ul>
+    </div>
+    <div class="project-tools">
+      <span class="tools-label">🔧</span>
+      <span class="tool-tag">R</span>
+      <span class="tool-tag"><span class="lang-cn">统计分析</span><span class="lang-en">Statistical Analysis</span></span>
+      <span class="tool-tag"><span class="lang-cn">数据可视化</span><span class="lang-en">Data Visualization</span></span>
+    </div>
+  </div>
+</div>
+
+<!-- UG Project 2 -->
+<div class="project-card">
+  <div class="project-card-header">
+    <div class="project-card-title">
+      <span class="lang-cn">交通客流量分析</span>
+      <span class="lang-en">Public Transportation Passenger Flow Analysis</span>
+    </div>
+    <div class="project-card-date">2021.09 — 2021.12</div>
+  </div>
+  <div class="project-content">
+    <div class="lang-cn">
+      <ul>
+        <li>🔻 分析同一地区疫情前后公共交通客流量的时序变化与结构差异</li>
+        <li>🔻 基于统计建模结果为交通管理部门提供班次频率调整决策依据</li>
+      </ul>
+    </div>
+    <div class="lang-en">
+      <ul>
+        <li>🔻 Analyzed temporal and structural changes in public transportation ridership before and after the COVID-19 outbreak in a target region</li>
+        <li>🔻 Provided evidence-based recommendations to transit authorities on adjusting service frequency based on statistical modeling results</li>
+      </ul>
+    </div>
+    <div class="project-tools">
+      <span class="tools-label">🔧</span>
+      <span class="tool-tag">R</span>
+      <span class="tool-tag"><span class="lang-cn">时间序列分析</span><span class="lang-en">Time Series Analysis</span></span>
+      <span class="tool-tag">SAS</span>
+    </div>
+  </div>
+</div>
+
+<!-- UG Project 3 -->
+<div class="project-card">
+  <div class="project-card-header">
+    <div class="project-card-title">
+      <span class="lang-cn">财务信息真实性分析</span>
+      <span class="lang-en">Financial Data Authenticity Analysis</span>
+    </div>
+    <div class="project-card-date">2022.01 — 2022.04</div>
+  </div>
+  <div class="project-content">
+    <div class="lang-cn">
+      <ul>
+        <li>🔻 运用统计检验方法（本福特定律、异常值检测等）对某金融公司财务数据进行真实性核查</li>
+        <li>🔻 识别数据异常模式，出具分析报告，辅助管理层完善财务风险管控机制</li>
+      </ul>
+    </div>
+    <div class="lang-en">
+      <ul>
+        <li>🔻 Applied statistical methods (Benford's Law, outlier detection) to audit the authenticity of financial data from a financial institution</li>
+        <li>🔻 Identified anomalous patterns and produced an analytical report to assist management in strengthening financial risk controls</li>
+      </ul>
+    </div>
+    <div class="project-tools">
+      <span class="tools-label">🔧</span>
+      <span class="tool-tag">R</span>
+      <span class="tool-tag"><span class="lang-cn">本福特定律</span><span class="lang-en">Benford's Law</span></span>
+      <span class="tool-tag"><span class="lang-cn">异常检测</span><span class="lang-en">Anomaly Detection</span></span>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== COMPETITIONS ===================== -->
+<div class="cv-section-title">
+  <span class="lang-cn">🏆 比赛经历</span>
+  <span class="lang-en">🏆 Competitions &amp; Awards</span>
+</div>
+
+<ul class="award-list">
+  <li class="award-item">
+    <span class="award-year">2022</span>
+    <span>
+      <span class="lang-cn">"创青春"全国大学生创业大赛<span class="award-level">省铜奖</span></span>
+      <span class="lang-en">"Chuang Qing Chun" National College Student Entrepreneurship Competition<span class="award-level">Provincial Bronze</span></span>
+    </span>
+  </li>
+  <li class="award-item">
+    <span class="award-year">2021</span>
+    <span>
+      <span class="lang-cn">全国SAS软件应用大赛<span class="award-level">国家三等奖</span></span>
+      <span class="lang-en">National SAS Software Application Competition<span class="award-level">National 3rd Prize</span></span>
+    </span>
+  </li>
+  <li class="award-item">
+    <span class="award-year">2021</span>
+    <span>
+      <span class="lang-cn">华创杯市场分析大赛<span class="award-level">省二等奖</span></span>
+      <span class="lang-en">Huachuang Cup Market Analysis Competition<span class="award-level">Provincial 2nd Prize</span></span>
+    </span>
+  </li>
+  <li class="award-item">
+    <span class="award-year">2019</span>
+    <span>
+      <span class="lang-cn">江西财经大学创新创业大赛<span class="award-level">优胜奖</span></span>
+      <span class="lang-en">JUFE Innovation &amp; Entrepreneurship Competition<span class="award-level">Excellence Award</span></span>
+    </span>
+  </li>
+</ul>
 
 <!-- ===================== PUBLICATIONS ===================== -->
 <div class="cv-section-title">
