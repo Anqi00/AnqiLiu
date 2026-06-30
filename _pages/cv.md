@@ -351,40 +351,6 @@ body.cv-lang-en .lang-cn { display: none !important; }
   <span class="lang-en">🎓 Education</span>
 </div>
 
-<!-- CNU -->
-<div class="edu-card">
-  <div class="edu-card-header">
-    <div class="edu-card-school">
-      <span class="lang-cn">韩国全南国立大学（Chonnam National University）</span>
-      <span class="lang-en">Chonnam National University, South Korea</span>
-    </div>
-    <div class="edu-card-date">
-      <span class="lang-cn">2023.09 — 至今</span>
-      <span class="lang-en">Sep 2023 — Present</span>
-    </div>
-  </div>
-  <div class="lang-cn">
-    <div class="edu-card-degree">融合生物系统机械工程系 &nbsp;｜&nbsp; IT-Bio融合系统（第二专业）&nbsp;｜&nbsp; 硕博连读 · 韩国光州</div>
-    <div class="edu-card-body">
-      <strong>GPA：</strong>4.33 / 4.5<br>
-      <strong>相关课程：</strong>图像处理应用、机器视觉、人工智能、高等应用数学、先进动力学、先进机器人学<br>
-      <strong>荣誉奖项：</strong>
-      <span class="edu-badge">2024 大学奖学金（6万元）</span>
-      <span class="edu-badge">2025 人才培养学金（7万元）</span>
-    </div>
-  </div>
-  <div class="lang-en">
-    <div class="edu-card-degree">Dept. of Biosystems Machinery Engineering &nbsp;|&nbsp; IT-Bio Convergence Systems (2nd Major) &nbsp;|&nbsp; Integrated MS-PhD · Gwangju, Korea</div>
-    <div class="edu-card-body">
-      <strong>GPA:</strong> 4.33 / 4.5<br>
-      <strong>Relevant Courses:</strong> Image Processing Applications, Machine Vision, Artificial Intelligence, Advanced Applied Mathematics, Advanced Dynamics, Advanced Robotics<br>
-      <strong>Honors &amp; Awards:</strong>
-      <span class="edu-badge">2024 University Scholarship (₩60,000)</span>
-      <span class="edu-badge">2025 Talent Development Scholarship (₩70,000)</span>
-    </div>
-  </div>
-</div>
-
 <!-- JUFE -->
 <div class="edu-card">
   <div class="edu-card-header">
@@ -437,6 +403,40 @@ body.cv-lang-en .lang-cn { display: none !important; }
     <div class="edu-card-degree">Exchange Student · Data Analytics · Barcelona</div>
     <div class="edu-card-body">
       <strong>Relevant Courses:</strong> R Programming, Statistical Learning, Probability Theory
+    </div>
+  </div>
+</div>
+
+<!-- CNU -->
+<div class="edu-card">
+  <div class="edu-card-header">
+    <div class="edu-card-school">
+      <span class="lang-cn">韩国全南国立大学（Chonnam National University）</span>
+      <span class="lang-en">Chonnam National University, South Korea</span>
+    </div>
+    <div class="edu-card-date">
+      <span class="lang-cn">2023.09 — 至今</span>
+      <span class="lang-en">Sep 2023 — Present</span>
+    </div>
+  </div>
+  <div class="lang-cn">
+    <div class="edu-card-degree">融合生物系统机械工程系 &nbsp;｜&nbsp; IT-Bio融合系统（第二专业）&nbsp;｜&nbsp; 硕博连读 · 韩国光州</div>
+    <div class="edu-card-body">
+      <strong>GPA：</strong>4.33 / 4.5<br>
+      <strong>相关课程：</strong>图像处理应用、机器视觉、人工智能、高等应用数学、先进动力学、先进机器人学<br>
+      <strong>荣誉奖项：</strong>
+      <span class="edu-badge">2024 大学奖学金（6万元）</span>
+      <span class="edu-badge">2025 人才培养学金（7万元）</span>
+    </div>
+  </div>
+  <div class="lang-en">
+    <div class="edu-card-degree">Dept. of Biosystems Machinery Engineering &nbsp;|&nbsp; IT-Bio Convergence Systems (2nd Major) &nbsp;|&nbsp; Integrated MS-PhD · Gwangju, Korea</div>
+    <div class="edu-card-body">
+      <strong>GPA:</strong> 4.33 / 4.5<br>
+      <strong>Relevant Courses:</strong> Image Processing Applications, Machine Vision, Artificial Intelligence, Advanced Applied Mathematics, Advanced Dynamics, Advanced Robotics<br>
+      <strong>Honors &amp; Awards:</strong>
+      <span class="edu-badge">2024 University Scholarship (₩60,000)</span>
+      <span class="edu-badge">2025 Talent Development Scholarship (₩70,000)</span>
     </div>
   </div>
 </div>
@@ -661,10 +661,10 @@ body.cv-lang-en .lang-cn { display: none !important; }
 
 <ul class="award-list">
   <li class="award-item">
-    <span class="award-year">2022</span>
+    <span class="award-year">2019</span>
     <span>
-      <span class="lang-cn">"创青春"全国大学生创业大赛<span class="award-level">省铜奖</span></span>
-      <span class="lang-en">"Chuang Qing Chun" National College Student Entrepreneurship Competition<span class="award-level">Provincial Bronze</span></span>
+      <span class="lang-cn">江西财经大学创新创业大赛<span class="award-level">优胜奖</span></span>
+      <span class="lang-en">JUFE Innovation &amp; Entrepreneurship Competition<span class="award-level">Excellence Award</span></span>
     </span>
   </li>
   <li class="award-item">
@@ -682,10 +682,10 @@ body.cv-lang-en .lang-cn { display: none !important; }
     </span>
   </li>
   <li class="award-item">
-    <span class="award-year">2019</span>
+    <span class="award-year">2022</span>
     <span>
-      <span class="lang-cn">江西财经大学创新创业大赛<span class="award-level">优胜奖</span></span>
-      <span class="lang-en">JUFE Innovation &amp; Entrepreneurship Competition<span class="award-level">Excellence Award</span></span>
+      <span class="lang-cn">"创青春"全国大学生创业大赛<span class="award-level">省铜奖</span></span>
+      <span class="lang-en">"Chuang Qing Chun" National College Student Entrepreneurship Competition<span class="award-level">Provincial Bronze</span></span>
     </span>
   </li>
 </ul>
