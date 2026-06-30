@@ -351,6 +351,40 @@ body.cv-lang-en .lang-cn { display: none !important; }
   <span class="lang-en">🎓 Education</span>
 </div>
 
+<!-- CNU -->
+<div class="edu-card">
+  <div class="edu-card-header">
+    <div class="edu-card-school">
+      <span class="lang-cn">韩国全南国立大学（Chonnam National University）</span>
+      <span class="lang-en">Chonnam National University, South Korea</span>
+    </div>
+    <div class="edu-card-date">
+      <span class="lang-cn">2023.09 — 至今</span>
+      <span class="lang-en">Sep 2023 — Present</span>
+    </div>
+  </div>
+  <div class="lang-cn">
+    <div class="edu-card-degree">融合生物系统机械工程系 &nbsp;｜&nbsp; IT-Bio融合系统（第二专业）&nbsp;｜&nbsp; 硕博连读 · 韩国光州</div>
+    <div class="edu-card-body">
+      <strong>GPA：</strong>4.33 / 4.5<br>
+      <strong>相关课程：</strong>图像处理应用、机器视觉、人工智能、高等应用数学、先进动力学、先进机器人学<br>
+      <strong>荣誉奖项：</strong>
+      <span class="edu-badge">2024 大学奖学金（6万元）</span>
+      <span class="edu-badge">2025 人才培养学金（7万元）</span>
+    </div>
+  </div>
+  <div class="lang-en">
+    <div class="edu-card-degree">Dept. of Biosystems Machinery Engineering &nbsp;|&nbsp; IT-Bio Convergence Systems (2nd Major) &nbsp;|&nbsp; Integrated MS-PhD · Gwangju, Korea</div>
+    <div class="edu-card-body">
+      <strong>GPA:</strong> 4.33 / 4.5<br>
+      <strong>Relevant Courses:</strong> Image Processing Applications, Machine Vision, Artificial Intelligence, Advanced Applied Mathematics, Advanced Dynamics, Advanced Robotics<br>
+      <strong>Honors &amp; Awards:</strong>
+      <span class="edu-badge">2024 University Scholarship (₩60,000)</span>
+      <span class="edu-badge">2025 Talent Development Scholarship (₩70,000)</span>
+    </div>
+  </div>
+</div>
+
 <!-- JUFE -->
 <div class="edu-card">
   <div class="edu-card-header">
@@ -407,77 +441,43 @@ body.cv-lang-en .lang-cn { display: none !important; }
   </div>
 </div>
 
-<!-- CNU -->
-<div class="edu-card">
-  <div class="edu-card-header">
-    <div class="edu-card-school">
-      <span class="lang-cn">韩国全南国立大学（Chonnam National University）</span>
-      <span class="lang-en">Chonnam National University, South Korea</span>
-    </div>
-    <div class="edu-card-date">
-      <span class="lang-cn">2023.09 — 至今</span>
-      <span class="lang-en">Sep 2023 — Present</span>
-    </div>
-  </div>
-  <div class="lang-cn">
-    <div class="edu-card-degree">融合生物系统机械工程系 &nbsp;｜&nbsp; IT-Bio融合系统（第二专业）&nbsp;｜&nbsp; 硕博连读 · 韩国光州</div>
-    <div class="edu-card-body">
-      <strong>GPA：</strong>4.33 / 4.5<br>
-      <strong>相关课程：</strong>图像处理应用、机器视觉、人工智能、高等应用数学、先进动力学、先进机器人学<br>
-      <strong>荣誉奖项：</strong>
-      <span class="edu-badge">2024 大学奖学金（6万元）</span>
-      <span class="edu-badge">2025 人才培养学金（7万元）</span>
-    </div>
-  </div>
-  <div class="lang-en">
-    <div class="edu-card-degree">Dept. of Biosystems Machinery Engineering &nbsp;|&nbsp; IT-Bio Convergence Systems (2nd Major) &nbsp;|&nbsp; Integrated MS-PhD · Gwangju, Korea</div>
-    <div class="edu-card-body">
-      <strong>GPA:</strong> 4.33 / 4.5<br>
-      <strong>Relevant Courses:</strong> Image Processing Applications, Machine Vision, Artificial Intelligence, Advanced Applied Mathematics, Advanced Dynamics, Advanced Robotics<br>
-      <strong>Honors &amp; Awards:</strong>
-      <span class="edu-badge">2024 University Scholarship (₩60,000)</span>
-      <span class="edu-badge">2025 Talent Development Scholarship (₩70,000)</span>
-    </div>
-  </div>
-</div>
-
 <!-- ===================== RESEARCH PROJECTS ===================== -->
 <div class="cv-section-title">
   <span class="lang-cn">🧪 硕博科研项目</span>
   <span class="lang-en">🧪 Research Projects</span>
 </div>
 
-<!-- Project 1 -->
+<!-- Project 3 (newest) -->
 <div class="project-card">
   <div class="project-card-header">
     <div class="project-card-title">
-      <span class="lang-cn">冬季苹果园剪枝点识别</span>
-      <span class="lang-en">Pruning Point Recognition in Winter Apple Orchards</span>
+      <span class="lang-cn">基于拓扑结构的跨季节高斯果园地图持久树木地标定位</span>
+      <span class="lang-en">Topology-based Persistent Tree Landmark Localization in Cross-Season Gaussian Orchard Maps</span>
     </div>
-    <div class="project-card-date">2024.06 — 2025.12</div>
+    <div class="project-card-date">
+      <span class="lang-cn">2026.04 — 至今</span>
+      <span class="lang-en">Apr 2026 — Present</span>
+    </div>
   </div>
   <div class="project-content">
     <div class="lang-cn">
       <ul>
-        <li>🔻 <strong>3D点云重建：</strong>利用多视角RGB-D图像对冬季休眠期苹果树进行密集三维点云采集与重建，构建高精度枝干几何模型</li>
-        <li>🔻 <strong>结构骨架提取：</strong>设计基于拓扑感知的骨架提取算法，从稀疏噪声点云中精确还原苹果树主干与侧枝的树形结构</li>
-        <li>🔻 <strong>深度学习网络：</strong>构建图神经网络（GNN）剪枝点预测框架，在三维骨架图上完成节点级语义分割与关键剪枝位点定位，并开展点云语义补全研究</li>
+        <li>🔻 <strong>跨季节拓扑匹配：</strong>构建季节不变性拓扑图表征，在高斯地图框架内提取持久性树木地标，实现休眠期至生长期的跨季节稳健定位</li>
+        <li>🔻 <strong>高斯地图持久化：</strong>研究3DGS地图的增量式更新与持久树木实体管理机制，支持季节变化下地标的语义一致性维护与长周期重定位</li>
       </ul>
     </div>
     <div class="lang-en">
       <ul>
-        <li>🔻 <strong>3D Point Cloud Reconstruction:</strong> Dense 3D point cloud acquisition and reconstruction of dormant-season apple trees using multi-view RGB-D images, building high-precision branch geometry models</li>
-        <li>🔻 <strong>Structural Skeleton Extraction:</strong> Topology-aware skeleton extraction algorithm to accurately recover main trunk and lateral branch structures from sparse noisy point clouds</li>
-        <li>🔻 <strong>Deep Learning Network:</strong> GNN-based pruning point prediction framework performing node-level semantic segmentation and key site localization on 3D skeleton graphs, with point cloud semantic completion research</li>
+        <li>🔻 <strong>Cross-season Topological Matching:</strong> Season-invariant topological graph representation to extract persistent tree landmarks within the Gaussian map for robust dormant-to-growing-season localization</li>
+        <li>🔻 <strong>Gaussian Map Persistence:</strong> Incremental 3DGS map update and persistent tree entity management mechanism supporting semantic-consistent landmark maintenance and long-cycle relocalization under seasonal change</li>
       </ul>
     </div>
     <div class="project-tools">
       <span class="tools-label">🔧</span>
-      <span class="tool-tag">GNN</span>
-      <span class="tool-tag"><span class="lang-cn">骨架提取</span><span class="lang-en">Skeleton Extraction</span></span>
-      <span class="tool-tag"><span class="lang-cn">语义分割</span><span class="lang-en">Semantic Segmentation</span></span>
-      <span class="tool-tag"><span class="lang-cn">点云补全</span><span class="lang-en">Point Cloud Completion</span></span>
-      <span class="tool-tag">RGB-D</span>
+      <span class="tool-tag"><span class="lang-cn">拓扑图匹配</span><span class="lang-en">Topological Graph Matching</span></span>
+      <span class="tool-tag"><span class="lang-cn">3DGS地图</span><span class="lang-en">3DGS Map</span></span>
+      <span class="tool-tag"><span class="lang-cn">跨季节定位</span><span class="lang-en">Cross-Season Localization</span></span>
+      <span class="tool-tag"><span class="lang-cn">地标持久化</span><span class="lang-en">Landmark Persistence</span></span>
     </div>
   </div>
 </div>
@@ -519,37 +519,37 @@ body.cv-lang-en .lang-cn { display: none !important; }
   </div>
 </div>
 
-<!-- Project 3 -->
+<!-- Project 1 (oldest) -->
 <div class="project-card">
   <div class="project-card-header">
     <div class="project-card-title">
-      <span class="lang-cn">基于拓扑结构的跨季节高斯果园地图持久树木地标定位</span>
-      <span class="lang-en">Topology-based Persistent Tree Landmark Localization in Cross-Season Gaussian Orchard Maps</span>
+      <span class="lang-cn">冬季苹果园剪枝点识别</span>
+      <span class="lang-en">Pruning Point Recognition in Winter Apple Orchards</span>
     </div>
-    <div class="project-card-date">
-      <span class="lang-cn">2026.04 — 至今</span>
-      <span class="lang-en">Apr 2026 — Present</span>
-    </div>
+    <div class="project-card-date">2024.06 — 2025.12</div>
   </div>
   <div class="project-content">
     <div class="lang-cn">
       <ul>
-        <li>🔻 <strong>跨季节拓扑匹配：</strong>构建季节不变性拓扑图表征，在高斯地图框架内提取持久性树木地标，实现休眠期至生长期的跨季节稳健定位</li>
-        <li>🔻 <strong>高斯地图持久化：</strong>研究3DGS地图的增量式更新与持久树木实体管理机制，支持季节变化下地标的语义一致性维护与长周期重定位</li>
+        <li>🔻 <strong>3D点云重建：</strong>利用多视角RGB-D图像对冬季休眠期苹果树进行密集三维点云采集与重建，构建高精度枝干几何模型</li>
+        <li>🔻 <strong>结构骨架提取：</strong>设计基于拓扑感知的骨架提取算法，从稀疏噪声点云中精确还原苹果树主干与侧枝的树形结构</li>
+        <li>🔻 <strong>深度学习网络：</strong>构建图神经网络（GNN）剪枝点预测框架，在三维骨架图上完成节点级语义分割与关键剪枝位点定位，并开展点云语义补全研究</li>
       </ul>
     </div>
     <div class="lang-en">
       <ul>
-        <li>🔻 <strong>Cross-season Topological Matching:</strong> Season-invariant topological graph representation to extract persistent tree landmarks within the Gaussian map for robust dormant-to-growing-season localization</li>
-        <li>🔻 <strong>Gaussian Map Persistence:</strong> Incremental 3DGS map update and persistent tree entity management mechanism supporting semantic-consistent landmark maintenance and long-cycle relocalization under seasonal change</li>
+        <li>🔻 <strong>3D Point Cloud Reconstruction:</strong> Dense 3D point cloud acquisition and reconstruction of dormant-season apple trees using multi-view RGB-D images, building high-precision branch geometry models</li>
+        <li>🔻 <strong>Structural Skeleton Extraction:</strong> Topology-aware skeleton extraction algorithm to accurately recover main trunk and lateral branch structures from sparse noisy point clouds</li>
+        <li>🔻 <strong>Deep Learning Network:</strong> GNN-based pruning point prediction framework performing node-level semantic segmentation and key site localization on 3D skeleton graphs, with point cloud semantic completion research</li>
       </ul>
     </div>
     <div class="project-tools">
       <span class="tools-label">🔧</span>
-      <span class="tool-tag"><span class="lang-cn">拓扑图匹配</span><span class="lang-en">Topological Graph Matching</span></span>
-      <span class="tool-tag"><span class="lang-cn">3DGS地图</span><span class="lang-en">3DGS Map</span></span>
-      <span class="tool-tag"><span class="lang-cn">跨季节定位</span><span class="lang-en">Cross-Season Localization</span></span>
-      <span class="tool-tag"><span class="lang-cn">地标持久化</span><span class="lang-en">Landmark Persistence</span></span>
+      <span class="tool-tag">GNN</span>
+      <span class="tool-tag"><span class="lang-cn">骨架提取</span><span class="lang-en">Skeleton Extraction</span></span>
+      <span class="tool-tag"><span class="lang-cn">语义分割</span><span class="lang-en">Semantic Segmentation</span></span>
+      <span class="tool-tag"><span class="lang-cn">点云补全</span><span class="lang-en">Point Cloud Completion</span></span>
+      <span class="tool-tag">RGB-D</span>
     </div>
   </div>
 </div>
@@ -560,33 +560,33 @@ body.cv-lang-en .lang-cn { display: none !important; }
   <span class="lang-en">📊 Undergraduate Projects</span>
 </div>
 
-<!-- UG Project 1 -->
+<!-- UG Project 3 (newest) -->
 <div class="project-card">
   <div class="project-card-header">
     <div class="project-card-title">
-      <span class="lang-cn">按地区分析疫苗接种数据</span>
-      <span class="lang-en">Regional COVID-19 Vaccination Data Analysis</span>
+      <span class="lang-cn">财务信息真实性分析</span>
+      <span class="lang-en">Financial Data Authenticity Analysis</span>
     </div>
-    <div class="project-card-date">2021.06 — 2021.09</div>
+    <div class="project-card-date">2022.01 — 2022.04</div>
   </div>
   <div class="project-content">
     <div class="lang-cn">
       <ul>
-        <li>🔻 按不同年龄组统计分析第三剂疫苗接种完成情况，识别接种率偏低的区域与人群</li>
-        <li>🔻 将分析结果可视化并交付地方政府，帮助其更精准地制定疫苗接种督促策略</li>
+        <li>🔻 运用统计检验方法（本福特定律、异常值检测等）对某金融公司财务数据进行真实性核查</li>
+        <li>🔻 识别数据异常模式，出具分析报告，辅助管理层完善财务风险管控机制</li>
       </ul>
     </div>
     <div class="lang-en">
       <ul>
-        <li>🔻 Analyzed third-dose COVID-19 vaccination completion rates by age group and region, identifying under-vaccinated populations</li>
-        <li>🔻 Delivered data visualizations to local government to support more targeted vaccination promotion campaigns</li>
+        <li>🔻 Applied statistical methods (Benford's Law, outlier detection) to audit the authenticity of financial data from a financial institution</li>
+        <li>🔻 Identified anomalous patterns and produced an analytical report to assist management in strengthening financial risk controls</li>
       </ul>
     </div>
     <div class="project-tools">
       <span class="tools-label">🔧</span>
       <span class="tool-tag">R</span>
-      <span class="tool-tag"><span class="lang-cn">统计分析</span><span class="lang-en">Statistical Analysis</span></span>
-      <span class="tool-tag"><span class="lang-cn">数据可视化</span><span class="lang-en">Data Visualization</span></span>
+      <span class="tool-tag"><span class="lang-cn">本福特定律</span><span class="lang-en">Benford's Law</span></span>
+      <span class="tool-tag"><span class="lang-cn">异常检测</span><span class="lang-en">Anomaly Detection</span></span>
     </div>
   </div>
 </div>
@@ -622,33 +622,33 @@ body.cv-lang-en .lang-cn { display: none !important; }
   </div>
 </div>
 
-<!-- UG Project 3 -->
+<!-- UG Project 1 (oldest) -->
 <div class="project-card">
   <div class="project-card-header">
     <div class="project-card-title">
-      <span class="lang-cn">财务信息真实性分析</span>
-      <span class="lang-en">Financial Data Authenticity Analysis</span>
+      <span class="lang-cn">按地区分析疫苗接种数据</span>
+      <span class="lang-en">Regional COVID-19 Vaccination Data Analysis</span>
     </div>
-    <div class="project-card-date">2022.01 — 2022.04</div>
+    <div class="project-card-date">2021.06 — 2021.09</div>
   </div>
   <div class="project-content">
     <div class="lang-cn">
       <ul>
-        <li>🔻 运用统计检验方法（本福特定律、异常值检测等）对某金融公司财务数据进行真实性核查</li>
-        <li>🔻 识别数据异常模式，出具分析报告，辅助管理层完善财务风险管控机制</li>
+        <li>🔻 按不同年龄组统计分析第三剂疫苗接种完成情况，识别接种率偏低的区域与人群</li>
+        <li>🔻 将分析结果可视化并交付地方政府，帮助其更精准地制定疫苗接种督促策略</li>
       </ul>
     </div>
     <div class="lang-en">
       <ul>
-        <li>🔻 Applied statistical methods (Benford's Law, outlier detection) to audit the authenticity of financial data from a financial institution</li>
-        <li>🔻 Identified anomalous patterns and produced an analytical report to assist management in strengthening financial risk controls</li>
+        <li>🔻 Analyzed third-dose COVID-19 vaccination completion rates by age group and region, identifying under-vaccinated populations</li>
+        <li>🔻 Delivered data visualizations to local government to support more targeted vaccination promotion campaigns</li>
       </ul>
     </div>
     <div class="project-tools">
       <span class="tools-label">🔧</span>
       <span class="tool-tag">R</span>
-      <span class="tool-tag"><span class="lang-cn">本福特定律</span><span class="lang-en">Benford's Law</span></span>
-      <span class="tool-tag"><span class="lang-cn">异常检测</span><span class="lang-en">Anomaly Detection</span></span>
+      <span class="tool-tag"><span class="lang-cn">统计分析</span><span class="lang-en">Statistical Analysis</span></span>
+      <span class="tool-tag"><span class="lang-cn">数据可视化</span><span class="lang-en">Data Visualization</span></span>
     </div>
   </div>
 </div>
@@ -661,10 +661,10 @@ body.cv-lang-en .lang-cn { display: none !important; }
 
 <ul class="award-list">
   <li class="award-item">
-    <span class="award-year">2019</span>
+    <span class="award-year">2022</span>
     <span>
-      <span class="lang-cn">江西财经大学创新创业大赛<span class="award-level">优胜奖</span></span>
-      <span class="lang-en">JUFE Innovation &amp; Entrepreneurship Competition<span class="award-level">Excellence Award</span></span>
+      <span class="lang-cn">"创青春"全国大学生创业大赛<span class="award-level">省铜奖</span></span>
+      <span class="lang-en">"Chuang Qing Chun" National College Student Entrepreneurship Competition<span class="award-level">Provincial Bronze</span></span>
     </span>
   </li>
   <li class="award-item">
@@ -682,10 +682,10 @@ body.cv-lang-en .lang-cn { display: none !important; }
     </span>
   </li>
   <li class="award-item">
-    <span class="award-year">2022</span>
+    <span class="award-year">2019</span>
     <span>
-      <span class="lang-cn">"创青春"全国大学生创业大赛<span class="award-level">省铜奖</span></span>
-      <span class="lang-en">"Chuang Qing Chun" National College Student Entrepreneurship Competition<span class="award-level">Provincial Bronze</span></span>
+      <span class="lang-cn">江西财经大学创新创业大赛<span class="award-level">优胜奖</span></span>
+      <span class="lang-en">JUFE Innovation &amp; Entrepreneurship Competition<span class="award-level">Excellence Award</span></span>
     </span>
   </li>
 </ul>
@@ -722,21 +722,12 @@ body.cv-lang-en .lang-cn { display: none !important; }
 <ul class="pub-list">
   <li class="pub-item">
     <div class="pub-title">
-      GNN-Driven Detection of Pruning Points in Apple Trees Using 3D Point Clouds
+      StructGS: Structure-Aware 3D Gaussian Splatting for Complex Orchard Environments
       <span class="pub-badge pub-badge-first"><span class="lang-cn">第一作者</span><span class="lang-en">1st Author</span></span>
-      <span class="conf-badge">KSAM 2025 Spring</span>
+      <span class="conf-badge">KSAM 2026 Spring</span>
     </div>
-    <div class="pub-meta lang-cn">韩国农业机械学会春季学术大会 2025</div>
-    <div class="pub-meta lang-en">Korean Society for Agricultural Machinery, Spring 2025</div>
-  </li>
-  <li class="pub-item">
-    <div class="pub-title">
-      2D-3D Matching for High-Precision Camera Localization in Apple Orchards Using SuperPoint and LightGlue
-      <span class="pub-badge pub-badge-first"><span class="lang-cn">第一作者</span><span class="lang-en">1st Author</span></span>
-      <span class="conf-badge">KSAM 2025 Fall</span>
-    </div>
-    <div class="pub-meta lang-cn">韩国农业机械学会秋季学术大会 2025</div>
-    <div class="pub-meta lang-en">Korean Society for Agricultural Machinery, Fall 2025</div>
+    <div class="pub-meta lang-cn">韩国农业机械学会春季学术大会 2026</div>
+    <div class="pub-meta lang-en">Korean Society for Agricultural Machinery, Spring 2026</div>
   </li>
   <li class="pub-item">
     <div class="pub-title">
@@ -749,12 +740,21 @@ body.cv-lang-en .lang-cn { display: none !important; }
   </li>
   <li class="pub-item">
     <div class="pub-title">
-      StructGS: Structure-Aware 3D Gaussian Splatting for Complex Orchard Environments
+      2D-3D Matching for High-Precision Camera Localization in Apple Orchards Using SuperPoint and LightGlue
       <span class="pub-badge pub-badge-first"><span class="lang-cn">第一作者</span><span class="lang-en">1st Author</span></span>
-      <span class="conf-badge">KSAM 2026 Spring</span>
+      <span class="conf-badge">KSAM 2025 Fall</span>
     </div>
-    <div class="pub-meta lang-cn">韩国农业机械学会春季学术大会 2026</div>
-    <div class="pub-meta lang-en">Korean Society for Agricultural Machinery, Spring 2026</div>
+    <div class="pub-meta lang-cn">韩国农业机械学会秋季学术大会 2025</div>
+    <div class="pub-meta lang-en">Korean Society for Agricultural Machinery, Fall 2025</div>
+  </li>
+  <li class="pub-item">
+    <div class="pub-title">
+      GNN-Driven Detection of Pruning Points in Apple Trees Using 3D Point Clouds
+      <span class="pub-badge pub-badge-first"><span class="lang-cn">第一作者</span><span class="lang-en">1st Author</span></span>
+      <span class="conf-badge">KSAM 2025 Spring</span>
+    </div>
+    <div class="pub-meta lang-cn">韩国农业机械学会春季学术大会 2025</div>
+    <div class="pub-meta lang-en">Korean Society for Agricultural Machinery, Spring 2025</div>
   </li>
 </ul>
 
