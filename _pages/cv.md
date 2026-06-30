@@ -475,4 +475,4 @@ author_profile: true
   <span class="research-tag">LaTeX</span>
 </div>
 
-<p style="font-size:0.88em;color:#777;margin-top:1em;">语言：普通话（母语）· 英语（学术写作与交流）· 韩语（日常交流）</p>
+<p style="font-size:0.88em;color:#777;margin-top:1em;">语言：普通话（母语）· 英语（学术写作与交流）· 韩语（日常交流）· 西班牙语（日常交流）</p>
